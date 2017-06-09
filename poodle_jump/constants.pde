@@ -37,7 +37,7 @@ float platformLength = 50, platformHeight = 10;
 float platformRadius = platformHeight*0.5;
 color platformColor = color(139,195,74);
 
-int score;
+int score,gamestate;
 
 int startSize = 100;
 color startColor = color(93,64,55);

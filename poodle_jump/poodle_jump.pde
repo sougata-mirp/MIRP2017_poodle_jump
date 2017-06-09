@@ -5,6 +5,12 @@ void setup() {
 }
 
 void draw() {
+  if (gamestate == 0)
+    drawStartScreen();
+   if (gamestate == 2)
+    drawLoseScreen();
+    if (gamestate == 1)
+    drawGameScreen();
   
 }
 
@@ -17,7 +23,10 @@ void drawLoseScreen() {
 void drawGameScreen() {
 }
 
-void drawPlayer() {
+void drawPlayer() { 
+  background
+  fill (playerColor);
+  ellipse(playerX,playerY,playerRadius ,playerRadius );
 }
 
 void drawPlatforms() {
